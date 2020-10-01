@@ -9,6 +9,7 @@ var c, python, java bool
 var uno, dos int = 1, 2
 
 // Constante
+// ¿Qué sucede si intentamos modificar el valor más tarde en el código?
 const pi float32 = 3.14
 
 func main() {

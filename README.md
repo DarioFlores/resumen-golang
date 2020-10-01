@@ -1,4 +1,4 @@
-# Curso de golang para dar en modalidad virtual
+# Curso de golang - Modalidad virtual
 
 1. Conceptos básicos
    1. [Hola mundo](01_conceptos_basicos/01_hello_world)  
