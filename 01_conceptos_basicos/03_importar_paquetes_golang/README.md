@@ -1,5 +1,7 @@
 # Usemos los paquetes de golang
+
 En este ejemplo usamos el paquete rand que golang trae (y el fmt que ya habíamos usado).  
+
 1. En el archivo 01_package_rand.go vemos la función imprimirNumeroRand que imprime un número que a primera vista parece ser aleatorio.  
 2. Ejecutemos desde el directorio del proyecto:  
 `cd 01_conceptos_basicos/03_importar_paquetes_golang`  
