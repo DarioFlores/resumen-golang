@@ -8,7 +8,6 @@ import (
 )
 
 func main() {
-
 	// Llamamos a una función dentro del mismo paquete, no necesita ser exportada
 	imprimirNumeroRand()
 }
