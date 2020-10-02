@@ -13,3 +13,4 @@
    `<nombre> := <valor>`
 4. En golang tenemos el concepto de _zero value_ que hace que cuando no inicializamos una variable, se le asigne un valor por defecto según el tipo de dato con el que estemos declarando la variable.  
 5. Probemos ejecutar la función main para ver qué se imprime y analicemos un poco el código.  
+6. ¿Qué pasa si declaro una variable y no la uso? Probemos.  
