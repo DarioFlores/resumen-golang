@@ -7,5 +7,6 @@
    4. [Variables y constantes](01_conceptos_basicos/04_variables_y_constantes)  
    5. [Funciones](01_conceptos_basicos/05_funciones)  
    6. [Importar paquetes externos](01_conceptos_basicos/06_importar_paquetes_externos)  
+   7. [Errores](01_conceptos_basicos/07_errores)  
 
 _Disclaimer: esto no es una estructura normal de un proyecto ni los paquetes están armados acorde a las buenas prácticas (tampoco los nombres de los archivos), es simplemente un conjunto de ejemplos para ir mostrando los conceptos del lenguaje._
