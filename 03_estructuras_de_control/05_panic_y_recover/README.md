@@ -1,6 +1,6 @@
 # Panic y recover
 
-1. En el archivo `main.go` vemos un ejemplo más complejo de `recover`. 
+1. En el archivo `main.go` vemos un ejemplo más complejo de `recover`.  
 2. Dentro de la función `main` se **ejecuta** una llamada a la función `f`.  
 3. Lo primero que se hace dentro de la función `f` es **apilar en las llamadas diferidas** una función anónima que ejecutará el `recover` si es que hay algún `panic`. Como es una llamada diferida, no se ejecuta sino que se dejará pendiente para ejecutar una vez que salga de la función.  
 4. Lo que se hace luego es **ejecutar** una impresión por pantalla indicando que se invoca a la función `g`.  
