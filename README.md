@@ -12,5 +12,11 @@
    1. [Punteros](02_estructuras_punteros/01_punteros)  
    2. [Estructuras](02_estructuras_punteros/02_estructuras)  
    3. [Punteros a estructuras](02_estructuras_punteros/03_punteros_a_estructuras)  
+3. Estructuras de control
+   1. [Condicionales](03_estructuras_de_control/01_condicionales)
+   2. [Switch](03_estructuras_de_control/02_switch)
+   3. [Iteraciones](03_estructuras_de_control/03_iteraciones)
+   4. [Panic y defer](03_estructuras_de_control/04_panic_y_defer)
+   5. [Panic y recover](03_estructuras_de_control/05_panic_y_recover)
 
 _Disclaimer: esto no es una estructura normal de un proyecto ni los paquetes están armados acorde a las buenas prácticas (tampoco los nombres de los archivos), es simplemente un conjunto de ejemplos para ir mostrando los conceptos del lenguaje._
