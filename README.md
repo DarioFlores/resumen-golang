@@ -18,5 +18,14 @@
    3. [Iteraciones](03_estructuras_de_control/03_iteraciones)
    4. [Panic y defer](03_estructuras_de_control/04_panic_y_defer)
    5. [Panic y recover](03_estructuras_de_control/05_panic_y_recover)
+4. Arrays, slices y maps
+   1. [Arrays](04_arrays_slices_maps/01_arrays)
+   2. [Longitud y capacidad para un slice](04_arrays_slices_maps/02_slice_len_cap)
+   3. [Slice como un puntero a array](04_arrays_slices_maps/02_slice_puntero_a_array)
+   4. [Agregar elementos a un slice](04_arrays_slices_maps/03_slice_append)
+   5. [Recorriendo un slice](04_arrays_slices_maps/05_slice_range)
+   6. [Mapas](04_arrays_slices_maps/06_maps)
+   7. [Eliminar un valor del mapa](04_arrays_slices_maps/07_maps_delete)
+   8. [Recorriendo un mapa](04_arrays_slices_maps/08_maps_range)
 
 _Disclaimer: esto no es una estructura normal de un proyecto ni los paquetes están armados acorde a las buenas prácticas (tampoco los nombres de los archivos), es simplemente un conjunto de ejemplos para ir mostrando los conceptos del lenguaje._
