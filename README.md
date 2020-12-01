@@ -27,5 +27,12 @@
    6. [Mapas](04_arrays_slices_maps/06_maps)
    7. [Eliminar un valor del mapa](04_arrays_slices_maps/07_maps_delete)
    8. [Recorriendo un mapa](04_arrays_slices_maps/08_maps_range)
+5. Métodos e interfaces
+   1. [Semántica de puntero y de valor](05_metodos_interfaces/01_semantica_puntero_vs_valor)
+   2. [Interfaces](05_metodos_interfaces/02_interfaces)
+   3. [Switch por tipos](05_metodos_interfaces/03_type_switch)
+   4. [Polimorfismo](05_metodos_interfaces/04_polimorfismo)
+   5. [Interfaz error](05_metodos_interfaces/05_error_interface)
+   6. [Estructuras embebidas](05_metodos_interfaces/06_estructuras_embebidas)
 
 _Disclaimer: esto no es una estructura normal de un proyecto ni los paquetes están armados acorde a las buenas prácticas (tampoco los nombres de los archivos), es simplemente un conjunto de ejemplos para ir mostrando los conceptos del lenguaje._
