@@ -34,5 +34,9 @@
    4. [Polimorfismo](05_metodos_interfaces/04_polimorfismo)
    5. [Interfaz error](05_metodos_interfaces/05_error_interface)
    6. [Estructuras embebidas](05_metodos_interfaces/06_estructuras_embebidas)
+6. Concurrencia
+   1. [Goroutines](06_concurrencia/01_goroutines)
+   2. [Select](06_concurrencia/02_select)
+   3. [Paquete context](06_concurrencia/03_context)
 
 _Disclaimer: esto no es una estructura normal de un proyecto ni los paquetes están armados acorde a las buenas prácticas (tampoco los nombres de los archivos), es simplemente un conjunto de ejemplos para ir mostrando los conceptos del lenguaje._
