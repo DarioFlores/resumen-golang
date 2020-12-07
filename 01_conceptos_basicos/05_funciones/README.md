@@ -16,6 +16,7 @@
 2. En el archivo `main.go` se ejecutan cuatro funciones diferentes (ninguna está exportada porque las usamos dentro del mismo paquete en donde fueron declaradas).
    1. La función `sumar` que recibe dos enteros como entrada y devuelve un entero con la suma.  
    2. La función `restar` que recibe dos enteros como entrada y devuelve un entero con la resta.  
-   3. La función `imprimirMensaje` que recibe tres enteros como entrada y una cadena de caracteres y no tiene salida.  
-   4. La función `transformarCadena` que recibe una cadena de caracteres y devuelve dos cadenas.  
-3. Podríamos no querer usar todas las variables de salida en algún caso (por ejemplo en la función `transformarCadena`), en esos casos usamos el guión bajo `_` en lugar del nombre de variables que no queremos usar. Imaginemos que sólo queremos imprimir con la cadena toda en mayúsculas, ¿qué haríamos?
+   3. La función `sumarMuchosNumeros` que recibe **n** enteros como entrada y devuelve un entero con la suma.  
+   4. La función `imprimirMensaje` que recibe tres enteros como entrada y una cadena de caracteres y no tiene salida.  
+   5. La función `transformarCadena` que no recibe entradas y devuelve tres funciones que convierten un string a determinados formatos.  
+3. Podríamos no querer usar todas las variables de salida en algún caso (por ejemplo en la función `transformarCadena`), en esos casos usamos el guión bajo `_` en lugar del nombre de variables que no queremos usar. Imaginemos que sólo queremos devolver la función que devuelve la cadena toda en mayúsculas, ¿qué haríamos?
