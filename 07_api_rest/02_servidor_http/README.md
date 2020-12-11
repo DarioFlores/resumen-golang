@@ -8,5 +8,5 @@
    2. La idea de estas funciones es que manejen el request que llega como segundo parámetro en la entrada y escriban la respuesta utilizando el primer parámetro de entrada.
    3. Pasar esa función por parámetro a la función `http.HandleFunc` que recibe un patrón de la URL y la función que nombrábamos para registrar un handler nuevo.  
 5. Cuando ejecutamos este main, quedará levantado un server al que podremos hacerle requests:
-   1. Un request posible es un GET a localhost:8090/hello que imprime un "hello" y desde la terminal podemos hacer con `curl localhost:8090/hello` o ir a esa url desde un browser.  
-   2. Otro request posible es un GET a localhost:8090/headers que imprime los headers del request y desde la terminal podemos hacer con `curl localhost:8090/headers` o ir a la url desde un browser (los headers serán distintos en ese caso).  
+   1. Un request posible es un GET a localhost:8090/hello que imprime un "hello" y desde la terminal podemos hacer con `curl localhost:8090/hello`, ir a esa url desde un browser o enviar el request por Postman.  
+   2. Otro request posible es un GET a localhost:8090/headers que imprime los headers del request y desde la terminal podemos hacer con `curl localhost:8090/headers`, ir a la url desde un browser o enviar el request por Postman (los headers serán distintos en cada caso).  
