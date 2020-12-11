@@ -2,6 +2,7 @@ package main
 
 import (
 	"log"
+	"net/http"
 
 	"github.com/gin-gonic/gin"
 )
@@ -20,5 +21,5 @@ func logger(c *gin.Context) {
 }
 
 func funcionQueHaceGet(c *gin.Context) {
-	c.String(200, "ok")
+	c.String(http.StatusOK, "ok")
 }

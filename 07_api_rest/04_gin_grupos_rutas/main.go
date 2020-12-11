@@ -1,6 +1,10 @@
 package main
 
-import "github.com/gin-gonic/gin"
+import (
+	"net/http"
+
+	"github.com/gin-gonic/gin"
+)
 
 func main() {
 	router := gin.Default()
@@ -22,17 +26,17 @@ func main() {
 }
 
 func loginEndpoint(c *gin.Context) {
-	c.String(200, "loginEndpoint")
+	c.String(http.StatusOK, "loginEndpoint")
 }
 
 func submitEndpoint(c *gin.Context) {
-	c.String(200, "submitEndpoint")
+	c.String(http.StatusOK, "submitEndpoint")
 }
 
 func readEndpoint(c *gin.Context) {
-	c.String(200, "readEndpoint")
+	c.String(http.StatusOK, "readEndpoint")
 }
 
 func readEndpointNuevaVersion(c *gin.Context) {
-	c.String(200, "readEndpointNuevaVersion")
+	c.String(http.StatusOK, "readEndpointNuevaVersion")
 }
