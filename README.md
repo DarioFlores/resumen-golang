@@ -38,5 +38,11 @@
    1. [Goroutines](06_concurrencia/01_goroutines)
    2. [Select](06_concurrencia/02_select)
    3. [Paquete context](06_concurrencia/03_context)
+7. API Rest
+   1. [Cliente http](07_api_rest/01_cliente_http)
+   2. [Servidor http](07_api_rest/02_servidor_http)
+   3. [Middleware con gin](07_api_rest/03_gin_middleware)
+   4. [Grupos de rutas](07_api_rest/04_gin_grupos_rutas)
+   5. [Gin, json y estructuras](07_api_rest/05_gin_json_structs)
 
 _Disclaimer: esto no es una estructura normal de un proyecto ni los paquetes están armados acorde a las buenas prácticas (tampoco los nombres de los archivos), es simplemente un conjunto de ejemplos para ir mostrando los conceptos del lenguaje._
